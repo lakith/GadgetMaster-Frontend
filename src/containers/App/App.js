@@ -1,13 +1,14 @@
+import { CardText } from 'reactstrap';
+import Home from '../Home/Home';
+import Product from '../Product/Product';
+import Cart from '../Cart/Cart';
+import Checkout from '../Checkout/Checkout';
 import './App.css';
-import Header from '../../components/Header/Header';
-import Footer from '../../components/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <h1>Something</h1>
-      <Footer />
+      <Home />
     </div>
   );
 }
